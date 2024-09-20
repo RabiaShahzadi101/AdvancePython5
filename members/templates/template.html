@@ -1,0 +1,24 @@
+{% extends 'master.html' %}
+
+{% block title %}
+     TESTING Page
+{% endblock %}
+
+{% block content %}
+   <table border=1>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Age</th>
+    </tr>
+    {% for x in mymembers %}
+      <tr>
+        <td>{{ x.id}}</td>
+         <td> {{x.name}}</td>
+         <td> {{x.Age}}</td>
+      </tr>
+    {% endfor %}
+   </table>
+
+   <p>In the quiet of the morning, the world seems to hold its breath. The first rays of sunlight gently pierce through the trees, casting a warm, golden hue across the landscape. Birds begin their melodic symphony, and a gentle breeze stirs the leaves, creating a soft rustling sound. It's a peaceful reminder that every day holds the promise of new beginnings and simple joys.</p>
+{% endblock %}

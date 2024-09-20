@@ -1,0 +1,22 @@
+table{
+    background-color: antiquewhite;
+    color: rgb(204, 39, 47) ;
+
+}
+
+body {
+    background-color:rgb(199, 188, 236) ;
+    color: red;
+
+}
+
+h1{
+    color:aqua(8, 98, 78);
+
+}
+a{
+    color:rgb(227, 220, 245);
+}
+li{
+    color:azure;
+}
